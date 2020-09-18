@@ -1,0 +1,9 @@
+.intro__background {
+  max-width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

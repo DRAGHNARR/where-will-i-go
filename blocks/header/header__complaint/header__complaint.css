@@ -1,0 +1,28 @@
+.header__complaint {
+  color: black;
+  text-decoration: none;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  box-sizing: border-box;
+}
+
+.header__complaint:hover {
+  opacity: .5;
+  transition: opacity;
+}
+
+@media screen and (max-width: 475px) {
+  .header__complaint {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__complaint {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
