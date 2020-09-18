@@ -1,9 +1,9 @@
 .intro__image {
-  min-width: 60%;
+  width: 25vmax;
   align-self: center;
   justify-self: center;
-  padding: auto;
   object-fit: cover;
   object-position: center;
-  max-height: 355px;
+  height: 25vmax;
+  box-sizing: border-box;
 }
