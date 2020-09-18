@@ -4,5 +4,12 @@
   flex-direction: column;
   justify-content: space-between;
   width: 70%;
-  margin: 40px auto 40px 60px;
+  margin: 60px auto 40px 60px;
+}
+
+@media screen and (max-width: 1000px) {
+  .place__caption {
+    width: 90%;
+    margin: 60px auto 40px;
+  }
 }
