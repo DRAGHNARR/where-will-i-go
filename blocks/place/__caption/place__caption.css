@@ -1,0 +1,8 @@
+.place__caption {
+  grid-area: capt;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  margin: 40px auto 40px 60px;
+}
