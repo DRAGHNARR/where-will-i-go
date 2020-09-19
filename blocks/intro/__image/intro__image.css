@@ -7,3 +7,24 @@
   height: 25vmax;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__image {
+    width: 30vmax;
+    height: 30vmax;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__image {
+    width: 50vmin;
+    height: 50vmin;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro__image {
+    width: 100vmin;
+    height: 100vmin;
+  }
+}

@@ -1,10 +1,16 @@
 .intro__background {
   max-width: 100%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: minmax(148px, 1fr) minmax(148px, 1fr);
+  grid-template-rows: minmax(320px, 355px);
+  align-items: center;
   margin: 0;
   padding: 0;
-  max-height: 355px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+  .intro__background {
+    grid-template-columns: minmax(128px, 1fr);
+  }
 }

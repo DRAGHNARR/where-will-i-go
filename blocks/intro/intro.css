@@ -1,15 +1,9 @@
 .intro {
   width: 100%;
-  display: grid;
-  grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);
-  grid-template-rows: minmax(320px, 355px);
   min-height: min-content;
-  padding: 0 48px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  align-items: center;
   font-family: 'Inter', 'Arial', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-
-}
