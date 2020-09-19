@@ -3,6 +3,10 @@
     width: 30%;
 }
 
+.header__menu:last-of-type {
+  width: max-content;
+}
+
 @media screen and (max-width: 1024px) {
   .header__menu {
     width: 40%;
@@ -18,5 +22,11 @@
 @media screen and (max-width: 600px) {
   .header__menu {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__menu:last-of-type {
+    align-self: flex-start;
   }
 }

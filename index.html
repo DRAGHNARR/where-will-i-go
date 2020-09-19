@@ -7,20 +7,24 @@
   </head>
   <body class="page">
     <div class="page__container">
-      <header class="header page__header">
+      <header class="header page__header section_type_narrow">
         <nav class="header__menu">
           <ul class="header__links">
-            <a href="#" class="header__link">Мечты</a>
-            <a href="#" class="header__link">Ожидания</a>
-            <a href="#" class="header__link">Реальность</a>
+            <li><a href="#" class="header__link">Мечты</a></li>
+            <li><a href="#" class="header__link">Ожидания</a></li>
+            <li><a href="#" class="header__link">Реальность</a></li>
           </ul>
         </nav>
-        <a href="#" class="header__complaint">Пожаловаться</a>
+        <nav class="header__menu">
+          <ul class="header__links">
+            <li><a href="#" class="header__complaint header__link">Пожаловаться</a></li>
+          </ul>
+        </nav>
       </header>
 
 
       <main class="main">
-        <section class="intro">
+        <section class="intro section_type_narrow page__content">
           <figure class="intro__background">
             <figcaption class="intro__item">
               <h1 class="section-title intro__title">Куда я поеду</h1>
@@ -30,7 +34,7 @@
           </figure>
         </section>
 
-        <section class="places">
+        <section class="places page__content">
           <ul class="places__list">
             <li>
               <figure class="place">
@@ -76,9 +80,9 @@
         </section>
 
 
-        <section class="section people">
-          <h2 class="section__title">Люди</h2>
-          <p class="section__subtitle">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</p>
+        <section class="section_type_narrow people page__content">
+          <h2 class="section-title">Люди</h2>
+          <p class="section-subtitle">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</p>
           <ul class="people__list">
             <li>
               <blockquote class="people__block-quote">
@@ -109,7 +113,7 @@
       </main>
 
 
-      <footer class="footer">
+      <footer class="footer page__content">
         <div class="footer__cover">
           <p class="footer__author">&copy; TURB&#128060;PANDAS 2020</p>
           <p class="footer__author">&copy; T&#128060;P 2020</p>
