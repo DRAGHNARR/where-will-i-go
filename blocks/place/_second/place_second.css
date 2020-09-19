@@ -1,0 +1,11 @@
+.place_second {
+  grid-template-areas: "capt image";
+}
+
+@media screen and (max-width: 1000px) {
+  .place_second {
+    grid-template-areas: 
+      "image" 
+      "capt";
+  }
+}
