@@ -1,8 +1,8 @@
 .intro__background {
   max-width: 100%;
   display: grid;
-  grid-template-columns: minmax(148px, 1fr) minmax(148px, 1fr);
-  grid-template-rows: minmax(320px, 355px);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
   align-items: center;
   margin: 0;
   padding: 0;

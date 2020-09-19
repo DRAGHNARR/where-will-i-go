@@ -1,17 +1,18 @@
 .header__link {
-  color: black;
+  display: block;
+  color: #000;
   text-decoration: none;
-  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 163%;
   box-sizing: border-box;
 }
 
 .header__link:hover {
   opacity: .5;
-  transition: opacity;
+  box-shadow: 2px 2px #fecda7;
+  transition: opacity .5s ease;
 }
 
 @media screen and (max-width: 600px) {
