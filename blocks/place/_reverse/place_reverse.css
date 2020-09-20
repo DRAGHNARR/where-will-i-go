@@ -1,9 +1,9 @@
-.place_second {
+.place_reverse {
   grid-template-areas: "capt image";
 }
 
 @media screen and (max-width: 650px) {
-  .place_second {
+  .place_reverse {
     grid-template-areas: 
       "image" 
       "capt";
