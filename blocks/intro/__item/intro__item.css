@@ -1,7 +1,7 @@
 .intro__item {
   display: flex;
   max-width: 100%;
-  min-height: 30%;
+  min-height: 40%;
   flex-flow: column;
   justify-content: space-between;
 }

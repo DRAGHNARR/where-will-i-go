@@ -47,3 +47,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__cover/footer__cover.css);
 @import url(../blocks/footer/__author/footer__author.css);
+
+*, *::before, *::after {
+  border: 1px solid red;
+}

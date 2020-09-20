@@ -11,7 +11,7 @@
 @import url(../blocks/header/header__menu/header__menu.css);
 @import url(../blocks/header/header__links/header__links.css);
 @import url(../blocks/header/header__link/header__link.css);
-@import url(../blocks/header/header__link/_thene/header__link_theme_dark.css);
+@import url(../blocks/header/header__link/_theme/header__link_theme_dark.css);
 @import url(../blocks/header/header__complaint/header__complaint.css);
 
 @import url(../blocks/main/main.css);
