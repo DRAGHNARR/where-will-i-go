@@ -17,9 +17,21 @@
   }
 }
 
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 650px) {
   .place__title {
-    font-size: 30px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .place__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .place__title {
+    font-size: 15px;
   }
 }
 

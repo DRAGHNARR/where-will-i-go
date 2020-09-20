@@ -26,6 +26,18 @@
   }
 }
 
+@media screen and (max-width: 470px) {
+  .people__author {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .people__author {
+    font-size: 10px;
+  }
+}
+
 /*
 @media screen and (max-width: 710px) {
   .place__description {

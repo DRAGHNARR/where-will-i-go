@@ -28,8 +28,15 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
   .place__caption {
-    margin: 60px auto 60px 40px;
+    width: 85%;
+    margin: 20px auto 20px 35px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .place__caption {
+    margin: 20px auto 20px 25px;
   }
 }
