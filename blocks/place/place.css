@@ -6,7 +6,7 @@
   grid-template-areas: "image capt";
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 650px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));

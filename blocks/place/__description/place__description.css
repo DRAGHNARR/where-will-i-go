@@ -1,6 +1,46 @@
 .place__description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 170%;
+  line-height: 1.7;
   margin: 20px auto 0 0;
 }
+
+@media screen and (max-width: 910px) {
+  .place__description {
+    font-size: 11px;
+    margin: 15px auto 0 0;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .place__description {
+    font-size: 10px;
+    margin: 12px auto 0 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__description {
+    font-size: 14px;
+    margin: 20px auto 0 0;
+  }
+}
+
+/*
+@media screen and (max-width: 710px) {
+  .place__description {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .place__description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .place__description {
+    font-size: 15px;
+  }
+} */

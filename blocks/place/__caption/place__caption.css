@@ -9,7 +9,27 @@
 
 @media screen and (max-width: 1000px) {
   .place__caption {
-    width: 90%;
-    margin: 60px auto 40px;
+    width: 80%;
+    margin: 35px auto 35px 35px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .place__caption {
+    width: 85%;
+    margin: 20px auto 20px 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__caption {
+    width: 80%;
+    margin: 60px auto 40px 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place__caption {
+    margin: 60px auto 60px 40px;
   }
 }

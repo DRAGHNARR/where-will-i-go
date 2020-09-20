@@ -1,4 +1,5 @@
 .place__frame {
+  grid-area: image;
   position: relative;
   padding-bottom: 85%;
 }

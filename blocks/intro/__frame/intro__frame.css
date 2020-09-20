@@ -1,6 +1,17 @@
 .intro__frame {
-  margin: auto;
+  grid-area: image;
+  margin: auto auto auto 25%;
   position: relative;
   width: 60%;
   padding-bottom: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro__frame {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 30%;
+    top: 0;
+    left: 0;
+  }
 }
