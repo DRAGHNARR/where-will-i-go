@@ -1,3 +1,9 @@
+@media screen and (max-width: 770px) {
+  .header__complaint {
+    color: rgb(83, 78, 78);
+  }
+}
+
 @media screen and (max-width: 475px) {
   .header__complaint {
     align-self: flex-start;

@@ -21,8 +21,14 @@
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 770px) {
   .header__menu:last-of-type {
-    align-self: flex-start;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header__menu {
+    width: 100%;
   }
 }

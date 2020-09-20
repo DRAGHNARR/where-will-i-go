@@ -137,3 +137,17 @@ body {
 }
 
 
+.footer {
+  width: 100%;
+  background-color: #fecda7;
+  /*min-height: 50vmax;*/
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  padding-bottom: 50%;
+}
+
+.footer__author:first-of-type {
+  margin-top: 200px;
+}

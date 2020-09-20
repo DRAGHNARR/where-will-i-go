@@ -26,6 +26,7 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_type/section_type_narrow.css);
+@import url(../blocks/section-title/__margin-bottom/section-title__margin-bottom.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
@@ -48,6 +49,3 @@
 @import url(../blocks/footer/__cover/footer__cover.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
-*, *::before, *::after {
-  border: 1px solid red;
-}
