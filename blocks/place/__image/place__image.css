@@ -1,5 +1,4 @@
 .place__image {
-  grid-area: image;
   display: block;
   /* width: calc(100vw - (100vw - var(--var-width)));
   height: calc(100vw - (100vw - var(--var-width))); */

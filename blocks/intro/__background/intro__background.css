@@ -3,14 +3,19 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: 1fr;
+  grid-template-areas: "capt image";
   align-items: center;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .intro__background {
-    grid-template-columns: minmax(128px, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-areas: 
+      "image" 
+      "capt";
   }
 }
