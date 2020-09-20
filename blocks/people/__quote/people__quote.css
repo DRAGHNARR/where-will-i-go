@@ -3,3 +3,15 @@
   font-size: 14px;
   line-height: 170%;
 }
+
+@media screen and (max-width: 470px) {
+  .people__author {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .people__author {
+    font-size: 10px;
+  }
+}

@@ -3,5 +3,17 @@
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 470px) {
+  .people__author {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .people__author {
+    font-size: 12px;
+  }
 }
